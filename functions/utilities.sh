@@ -13,12 +13,11 @@ function install_packages() {
     while read line; do
       # Skip blank or comment lines.
       if [[ "$line" != '' && "$line" != *'#'* ]]; then
-        package=$(echo $line)
         package_name=$(echo $line | awk '{print $2}')
 
         # Only install packages not already installed.
         if [[ "${installed_packages[*]}" != *"$package_name"* ]]; then
-          npm install $package
+          npm install $line
         fi
       fi
     done < "$PACKAGES_SOURCE_PATH"
