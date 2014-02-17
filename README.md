@@ -1,6 +1,10 @@
 # Overview
 
-Shell scripts for installing default NPM packages.
+Shell scripts for the installation of commonly used NPM packages.
+
+Sometimes, when setting up a new machine, there is a need for automating the install of commonly used packages
+(i.e. setting up your toolbox). This solves that problem by providing a master list of commonly used packages which
+can be installed via a single command.
 
 # Features
 
@@ -32,7 +36,7 @@ Master Version (unstable):
 
 # Usage
 
-Edit the settings/packages.txt as you see fit. Blank lines and lines that begin with '#' and blank will be ignored.
+Edit the settings/packages.txt as you see fit. Blank lines and lines that begin with '#' will be ignored.
 Then open a terminal window to execute the following command:
 
     ./run.sh
