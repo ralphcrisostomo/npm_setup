@@ -8,12 +8,12 @@ function install_packages() {
   if [ -f "$PACKAGES_SOURCE_PATH" ]; then
     echo "Installing packages..."
 
-    installed_packages=( $(npm list --parseable --global --depth=1) )
+    local installed_packages=( $(npm list --parseable --global --depth=1) )
 
     while read line; do
       # Skip blank or comment lines.
       if [[ "$line" != '' && "$line" != *'#'* ]]; then
-        package_name=$(echo $line | awk '{print $2}')
+        local package_name=$(echo $line | awk '{print $2}')
 
         # Only install packages not already installed.
         if [[ "${installed_packages[*]}" != *"$package_name"* ]]; then
