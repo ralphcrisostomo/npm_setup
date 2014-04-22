@@ -5,7 +5,7 @@
 
 # Installs NPM packages.
 function install_packages() {
-  if [ -f "$PACKAGES_SOURCE_PATH" ]; then
+  if [[ -f "$PACKAGES_SOURCE_PATH" ]]; then
     echo "Installing packages..."
 
     local installed_packages=( $(npm list --parseable --global --depth=1) )
