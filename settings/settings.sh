@@ -1,11 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 
 # DESCRIPTION
 # Defines global settings.
 
 # SETTINGS
 # General
-set -e # Exit if any command returns non-zero.
+set -o nounset
+set -o errexit
+set -o pipefail
 
 # Globals
 SETTINGS_ROOT="$PWD/settings"

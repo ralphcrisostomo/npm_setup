@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # DESCRIPTION
 # Executes the command line interface.
@@ -14,19 +14,16 @@ source functions/utilities.sh
 source functions/options.sh
 
 # EXECUTION
-echo ''
-if [ -z "$1" ]; then
-  while true; do
-    echo "Usage: run OPTION"
-    echo "\nNPM Setup Options:"
-    echo "  i: Install packages."
-    echo "  q: Quit/Exit."
-    echo ''
+while true; do
+  if [ $# == 0 ]; then
+    printf "\nUsage: run OPTION\n"
+    printf "\nNPM Setup Options:\n"
+    printf "  i: Install packages.\n"
+    printf "  q: Quit/Exit.\n\n"
     read -p "Enter selection: " response
-    echo ''
+    printf "\n"
     process_option $response
-  done
-else
-  process_option $1
-fi
-echo ''
+  else
+    process_option $1
+  fi
+done
