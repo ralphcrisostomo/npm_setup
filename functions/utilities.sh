@@ -6,14 +6,14 @@
 # Installs NPM packages.
 function install_packages() {
   if [[ -f "$PACKAGES_SOURCE_PATH" ]]; then
-    echo "Installing packages..."
+    printf "Installing packages...\n"
 
     local installed_packages=( $(npm list --parseable --global --depth=1) )
 
     while read line; do
       # Skip blank or comment lines.
       if [[ "$line" != '' && "$line" != *'#'* ]]; then
-        local package_name=$(echo $line | awk '{print $2}')
+        local package_name=$(printf "$line" | awk '{print $2}')
 
         # Only install packages not already installed.
         if [[ "${installed_packages[*]}" != *"$package_name"* ]]; then
@@ -22,9 +22,9 @@ function install_packages() {
       fi
     done < "$PACKAGES_SOURCE_PATH"
 
-    echo "NPM package install complete!"
+    printf "NPM package install complete!\n"
   else
-    echo "Install canceled. Missing package settings: $PACKAGES_SOURCE_PATH"
+    printf "Install canceled. Missing package settings: $PACKAGES_SOURCE_PATH\n"
   fi
 }
 export -f install_packages
