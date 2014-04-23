@@ -8,15 +8,16 @@ function install_packages() {
   if [[ -f "$PACKAGES_SOURCE_PATH" ]]; then
     printf "Installing packages...\n"
 
-    local installed_packages=( $(npm list --parseable --global --depth=1) )
+    local installed_packages=($(npm list --parseable --global --depth=1))
 
     while read line; do
       # Skip blank or comment lines.
       if [[ "$line" != '' && "$line" != *'#'* ]]; then
-        local package_name=$(printf "$line" | awk '{print $2}')
+        local package_name=$(printf -- "$line" | awk '{print $2}')
 
         # Only install packages not already installed.
         if [[ "${installed_packages[*]}" != *"$package_name"* ]]; then
+          printf "Installing: $package_name...\n"
           npm install $line
         fi
       fi

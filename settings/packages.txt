@@ -3,10 +3,10 @@
 #--------------#
 
 # Development
--g katon
+--global katon
 
 # Graphics
--g imacss
+--global imacss
 
 # JavaScript
--g bower
+--global bower
