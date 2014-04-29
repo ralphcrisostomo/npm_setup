@@ -9,4 +9,5 @@
 --global imacss
 
 # JavaScript
+--global grunt-cli
 --global bower
