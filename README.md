@@ -12,6 +12,7 @@ Installs the following packages (only if not already installed):
 
 * [Katon](https://github.com/typicode/katon)
 * [imacss](https://github.com/akoenig/imacss)
+* [Grunt](http://gruntjs.com)
 
 # Requirements
 
@@ -27,7 +28,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/npm_setup.git
     cd npm_setup
-    git checkout v0.1.0
+    git checkout v0.2.0
 
 Master Version (unstable):
 
