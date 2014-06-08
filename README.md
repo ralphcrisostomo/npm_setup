@@ -68,11 +68,11 @@ Read CONTRIBUTING for details.
 
 # Credits
 
-Developed by [Brooke Kuhlmann](http://www.redalchemist.com) at [Red Alchemist](http://www.redalchemist.com)
+Developed by [Brooke Kuhlmann](http://www.alchemists.io) at [Alchemists](http://www.alchemists.io)
 
 # License
 
-Copyright (c) 2014 [Red Alchemist](http://www.redalchemist.com).
+Copyright (c) 2014 [Alchemists](http://www.alchemists.io).
 Read the LICENSE for details.
 
 # History
