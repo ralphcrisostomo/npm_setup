@@ -4,6 +4,7 @@
 
 # Development
 --global katon
+--global failing-code
 
 # Graphics
 --global imacss
