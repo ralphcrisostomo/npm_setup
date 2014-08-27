@@ -12,15 +12,15 @@ can be installed via a single command.
 
 Installs the following packages (only if not already installed):
 
-* [Katon](https://github.com/typicode/katon)
-* [imacss](https://github.com/akoenig/imacss)
-* [Grunt](http://gruntjs.com)
+- [Katon](https://github.com/typicode/katon)
+- [imacss](https://github.com/akoenig/imacss)
+- [Grunt](http://gruntjs.com)
 
 # Requirements
 
-* [OSX](http://www.apple.com/osx), Linux, or UNIX.
-* [Git](http://git-scm.com).
-* [NPM](https://www.npmjs.org).
+- [OSX](http://www.apple.com/osx), Linux, or UNIX.
+- [Git](http://git-scm.com).
+- [NPM](https://www.npmjs.org).
 
 # Setup
 
@@ -58,9 +58,9 @@ For example, executing "./run.sh i" will execute the install.
 
 Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 
-* Patch (x.y.Z) - Incremented for small, backwards compatible bug fixes.
-* Minor (x.Y.z) - Incremented for new, backwards compatible public API enhancements and/or bug fixes.
-* Major (X.y.z) - Incremented for any backwards incompatible public API changes.
+- Patch (x.y.Z) - Incremented for small, backwards compatible bug fixes.
+- Minor (x.Y.z) - Incremented for new, backwards compatible public API enhancements and/or bug fixes.
+- Major (X.y.z) - Incremented for any backwards incompatible public API changes.
 
 # Contributions
 
