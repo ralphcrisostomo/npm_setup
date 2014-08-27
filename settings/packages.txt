@@ -11,3 +11,6 @@
 
 # JavaScript
 --global grunt-cli
+
+# Assets
+--global broccoli-cli
