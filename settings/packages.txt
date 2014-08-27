@@ -2,6 +2,9 @@
 # NPM Packages #
 #--------------#
 
+# Documentation
+--global kss
+
 # Development
 --global katon
 --global failing-code
