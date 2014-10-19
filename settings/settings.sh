@@ -8,6 +8,7 @@
 set -o nounset
 set -o errexit
 set -o pipefail
+IFS=$'\n\t'
 
 # Globals
 SETTINGS_ROOT="$PWD/settings"
