@@ -12,15 +12,25 @@ can be installed via a single command.
 
 Installs the following packages (only if not already installed):
 
-- [Katon](https://github.com/typicode/katon)
-- [imacss](https://github.com/akoenig/imacss)
-- [Grunt](http://gruntjs.com)
+- Documentation
+    - [KSS](http://warpspire.com/kss)
+- Development
+    - [Katon](https://github.com/typicode/katon)
+    - [Failing Code](https://www.npmjs.org/package/failing-code)
+- Graphics
+    - [imacss](https://github.com/akoenig/imacss)
+- Deployment
+    - [Grunt](http://gruntjs.com)
+    - [Broccoli](https://github.com/joliss/broccoli)
+    - [Bower](http://bower.io)
+- Testing
+    - [pageres](https://github.com/sindresorhus/pageres)
 
 # Requirements
 
-- [OSX](http://www.apple.com/osx), Linux, or UNIX.
-- [Git](http://git-scm.com).
-- [NPM](https://www.npmjs.org).
+- [OSX](http://www.apple.com/osx)
+- [Git](http://git-scm.com)
+- [NPM](https://www.npmjs.org)
 
 # Setup
 
@@ -30,7 +40,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/npm_setup.git
     cd npm_setup
-    git checkout v0.2.0
+    git checkout v0.3.0
 
 Master Version (unstable):
 

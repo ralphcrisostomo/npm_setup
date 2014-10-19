@@ -12,10 +12,8 @@
 # Graphics
 --global imacss
 
-# JavaScript
---global grunt-cli
-
 # Assets
+--global grunt-cli
 --global broccoli-cli
 --global bower
 
