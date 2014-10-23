@@ -18,7 +18,7 @@ function install_packages() {
         # Only install packages not already installed.
         if [[ "${installed_packages[*]}" != *"$package_name"* ]]; then
           printf "Installing: $package_name...\n"
-          npm install $line
+          eval "npm install $line"
         fi
       fi
     done < "$PACKAGES_SOURCE_PATH"
