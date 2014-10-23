@@ -11,6 +11,7 @@
 
 # Graphics
 --global imacss
+--global svgo
 
 # Assets
 --global grunt-cli
