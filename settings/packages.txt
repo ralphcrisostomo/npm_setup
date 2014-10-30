@@ -18,6 +18,7 @@
 --global grunt-cli
 --global broccoli-cli
 --global bower
+--global uncss
 
 # Testing
 --global pageres
