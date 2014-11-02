@@ -1,3 +1,10 @@
+# v0.4.0 (2014-11-02)
+
+- Fixed install of packages.
+- Added the [SVGO](https://github.com/svg/svgo) package.
+- Added the [Node Offline Debug](https://github.com/HPSoftware/node-offline-debug) package.
+- Added the [UnCSS](https://github.com/giakki/uncss) package.
+
 # v0.3.0 (2014-10-19)
 
 - Added README links for CONTRIBUTING, LICENSE, and CHANGELOG documentation.

@@ -17,12 +17,15 @@ Installs the following packages (only if not already installed):
 - Development
     - [Katon](https://github.com/typicode/katon)
     - [Failing Code](https://www.npmjs.org/package/failing-code)
+    - [Node Offline Debug](https://github.com/HPSoftware/node-offline-debug)
 - Graphics
     - [imacss](https://github.com/akoenig/imacss)
-- Deployment
+    - [SVGO](https://github.com/svg/svgo)
+- Assets
     - [Grunt](http://gruntjs.com)
     - [Broccoli](https://github.com/joliss/broccoli)
     - [Bower](http://bower.io)
+    - [UnCSS](https://github.com/giakki/uncss)
 - Testing
     - [pageres](https://github.com/sindresorhus/pageres)
 
@@ -40,7 +43,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/npm_setup.git
     cd npm_setup
-    git checkout v0.3.0
+    git checkout v0.4.0
 
 Master Version (unstable):
 
