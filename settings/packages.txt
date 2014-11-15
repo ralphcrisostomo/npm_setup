@@ -23,3 +23,6 @@
 
 # Testing
 --global pageres
+
+# Utilities
+--global hget
