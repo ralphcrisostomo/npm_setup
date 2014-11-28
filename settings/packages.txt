@@ -3,7 +3,7 @@
 #--------------#
 
 # Documentation
---global kss
+# --global kss
 
 # Development
 --global coffee-script
