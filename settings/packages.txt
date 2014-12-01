@@ -14,6 +14,7 @@
 --global tmi
 
 # Assets
+--global gulp
 --global grunt-cli
 --global broccoli-cli
 --global bower
